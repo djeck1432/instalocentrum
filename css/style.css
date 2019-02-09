@@ -1,0 +1,688 @@
+body{
+  margin:0;
+  padding:0;
+}
+/* #шапка сайта  начало */
+.nav {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:10%;
+}
+.nav-top{
+  height:35px;
+  border: 1px solid silver;
+  box-sizing: content-box;
+  background: silver;
+}
+.nav-top p{
+  margin-top:0;
+  margin-left:10%;
+  padding-top:7.5px;
+}
+.nav-top a{
+
+}
+.nav-down{
+
+  min-height:60px;
+  background:
+   url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/Logo.png") no-repeat;
+  background-position: left;
+  padding-top:10px;
+  margin-left:10%;
+}
+.nav-down ul{
+  position: relative;
+  padding-right: 10%;
+  list-style: none;
+  float:right;
+}
+.nav-down ul li{
+  display:inline-block;
+  margin-left: 15px;
+}
+.nav-down ul li a{
+  display:block;
+  text-decoration: none;
+  color:silver;
+  font-size:1.2em;
+}
+/* конец шапки */
+
+
+
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width:auto;
+  min-height:468px;
+  background:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/instalocentrum_1.png") 50% no-repeat;
+}
+.main_text h1{
+  text-align: center;
+  padding-top:120px;
+  color:#ffffff;
+  font-size:35px;
+}
+.main_text pre{
+  text-align: center;
+  color:#ffffff;
+  font-size:15px;
+}
+.main_text .learn_more{
+  margin-left: 45%;
+  background-color: orange;
+  border-color: orange;
+  padding:12px 36px;
+  color:#ffffff;
+  border-radius: 10px;
+}
+.choosing{
+  display:flex;
+
+  margin:0;
+  padding:0;
+  width:auto;
+  height:650px;
+}
+
+.content_2{
+  justify-content: flex-start;
+  width: 450px;
+  height: 450px;
+  background:
+   url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/Boder.png")
+   no-repeat;
+   margin-left: 200px;
+   margin-top: 75px;
+
+}
+.choose {
+  justify-content: flex-end;
+  margin-left: 50px;
+  margin-top: 100px;
+  font-size:14px;
+}
+.choose hr{
+  background-color:blue;
+  border: 1px solid blue;
+  color:blue;
+  width:60px;
+  height:4px;
+  float:left;
+}
+.choose p{
+  width:430px;
+  font-size:12px;
+  word-wrap: break-word;
+}
+.icons_choose{
+  display:flex;
+  flex-flow:column wrap;
+  margin:0;
+  padding:0;
+  width:560px;
+}
+.customize{
+  align-content:flex-end;
+  width:250px;
+  height: 120px;
+  word-wrap: normal;
+}
+.icon_1{
+  width:50px;
+  background-image:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/gears2.png");
+  background-color: blue;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-height: 50px;
+}
+.customize h3{
+
+}
+
+.support{
+  justify-content: flex-end;
+  width:150px;
+  height: 80px;
+  padding-left: 10px;
+}
+
+/* .......no end i cooming soon..... */
+
+
+.featured_servis{
+  height:568px;
+  width:auto;
+  margin:0;
+  padding:0;
+  background-color:silver;
+}
+.featured_servis h1{
+  font-size: 25px;
+  text-align: center;
+  padding-top: 50px;
+}
+.featured_servis .describe{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  width:auto;
+  height:450px;
+  margin:40px 12%;
+}
+/* старт иконо и опису */
+.insta{
+  width: 180px;
+  height:200px;
+  margin:0px 40px;
+
+}
+.insta_photo{
+  align-self: center;
+  width:65px;
+  background: blue url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/tap.png") no-repeat 50% 50%;
+  min-height:65px;
+  margin-left: 60px;
+}
+.insta h3{
+  text-align: center;
+  margin-bottom: -10px;
+  line-height: 1.6em;
+}
+.insta p{
+  text-align: center;
+  color:white;
+}
+.insta a{
+  text-decoration: none;
+  padding-left: 60px;
+}
+/* кінець іконки і опису  */
+.valve_photo{
+  align-self:center;
+  width:65px;
+  background: blue url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/valve.png") no-repeat 50% 50%;
+  min-height:65px;
+  margin-left: 60px;
+}
+.valve_photo{
+  align-self:center;
+  width:65px;
+  background: blue url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/valve.png") no-repeat 50% 50%;
+  min-height:65px;
+  margin-left: 60px;
+}
+.shop_photo{
+  align-self:center;
+  width:65px;
+  background: blue url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/shop.png") no-repeat 50% 50%;
+  min-height:65px;
+  margin-left: 60px;
+}
+.hammer_photo{
+  align-self:center;
+  width:65px;
+  background: blue url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/hammer.png") no-repeat 50% 50%;
+  min-height:65px;
+  margin-left: 60px;
+}
+.pipe_2_photo{
+  align-self:center;
+  width:65px;
+  background: blue url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/pipe-2.png") no-repeat 50% 50%;
+  min-height:65px;
+  margin-left: 60px;
+}
+.pipe_photo{
+  align-self:center;
+  width:65px;
+  background: blue url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/pipe.png") no-repeat 50% 50%;
+  min-height:65px;
+  margin-left: 60px;
+}
+.wrench_photo{
+  align-self:center;
+  width:65px;
+  background: blue url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/wrench.png") no-repeat 50% 50%;
+  min-height:65px;
+  margin-left: 60px;
+}
+/* start  */
+.featured_servis_2{
+  display:flex;
+  flex-flow: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin:0;
+  padding-left:5%;
+  height: 300px;
+  width: auto;
+  z-index: 1;
+  background-image: url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/holder.png");
+}
+.featured_servis_2 p{
+  position:relative;
+  top:20px;
+  margin-left: 10%;
+  color:#ffffff;
+  font-size:35px;
+}
+.expieriens::after{
+  content: "YEARS OF EXPIERIENS ";
+  display: block;
+  position:relative;
+  color:silver;
+  font-size:15px;
+  position:relative;
+  top:10px;
+  left:10px;
+
+}
+.expieriens::before{
+  content:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/crown.png");
+  position: relative;
+  min-height:25px;
+  width:35px;
+  top:-50px;
+  left:45px;
+  border:1px solid blue;
+  background-color: blue;
+  border-radius: 70px;
+  border-width: 10px;
+
+
+}
+.project::after{
+  content: "COMPLETED PROJECT";
+  display: block;
+  position:relative;
+  color:silver;
+  font-size:15px;
+  position:relative;
+  top:10px;
+  left:10px;
+
+}
+.project::before{
+  content:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/startup.png");
+  position: relative;
+  min-height:25px;
+  width:35px;
+  top:-50px;
+  left:45px;
+  border:1px solid blue;
+  background-color: blue;
+  border-radius: 70px;
+  border-width: 10px;
+}
+.customer::after{
+    content: "HAPPY CUSTOMER";
+    display: block;
+    position:relative;
+    color:silver;
+    font-size:15px;
+    position:relative;
+    top:10px;
+    left:10px;
+
+  }
+.customer::before{
+    content:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/lovers-heart.png");
+    position: relative;
+    min-height:25px;
+    width:35px;
+    top:-50px;
+    left:45px;
+    border:1px solid blue;
+    background-color: blue;
+    border-radius: 70px;
+    border-width: 10px;
+
+
+  }
+.awards::after{
+      content: "AWARDS WON";
+      display: block;
+      position:relative;
+      color:silver;
+      font-size:15px;
+      position:relative;
+      top:10px;
+      left:10px;
+
+    }
+.awards::before{
+      content:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/quality.png");
+      position: relative;
+      min-height:25px;
+      width:35px;
+      top:-50px;
+      left:45px;
+      border:1px solid blue;
+      background-color: blue;
+      border-radius: 70px;
+      border-width: 10px;
+
+
+    }
+}
+/* our project start */
+.our_project{
+  display: flex;
+  margin: 0;
+  padding:0;
+  height: 900px;
+  width: auto;
+}
+.our_project h1{
+  text-align: center;
+  padding:20px;
+  font-size:25px;
+}
+.our_project hr{
+  background-color:blue;
+  border: 1px solid blue;
+  color:blue;
+  width:60px;
+  height:4px;
+  float:left;
+  position: relative;
+  left:47.5%;
+  top:-30px;
+
+}
+
+/* handyman start */
+.handyman{
+  display: flex;
+  flex-flow: column;
+  height: 300px;
+  width:100%;
+  margin:0px;
+  padding:0;
+  background: url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/instalocentrum_5_1.png") 72%;
+}
+.handyman p{
+  display:block;
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  color:#ffffff;
+  top:20%;
+  font-weight: bold;
+}
+.handyman a{
+  width:250px;
+  padding:15px 0px;
+  padding-left: 15px;
+  background-color: orange;
+  border:1px solid orange;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  top:20%;
+  left:42%;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight:bold;
+  color:#ffffff;
+  background:orange url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/comment.png") 7% no-repeat;
+}
+
+/* contact start */
+
+.contact {
+  display:flex;
+  flex-direction: row wrap;
+  height: 520px;
+  margin-left:18%;
+  margin-top: 4%;
+}
+.store{
+}
+.store h2{
+  letter-spacing: 1.5px;
+}
+.store hr,
+.qoute hr{
+  background-color:blue;
+  border: 1px solid blue;
+  color:blue;
+  width:60px;
+  height:2px;
+  float:left;
+  position:relative;
+  top:-15px;
+}
+.qoute{
+  margin-left: 5%;
+  width:650px;
+}
+.quote h2{
+  letter-spacing: 1.5px;
+}
+/* start form */
+form {
+  display: block;
+  height: 350px;
+  margin-top:30px;
+}
+input[type="text"]{
+  border:1px solid #E5E5E5;
+  background-color:#F2F2F2;
+  color:#6E6E6E;
+  padding: 10px 100px 10px 20px;
+  margin: 10px 5px 10px 0px;
+}
+input[type="text"]:first-child{
+  margin-left: -61px;
+}
+textarea{
+  border:1px solid #E5E5E5;
+  background-color:#F2F2F2;
+  color:#6E6E6E;
+  padding-top:10px;
+  padding-left:15px;
+  padding-right: 1px;
+  margin-left: -1px;
+}
+input[type="button"]{
+  padding: 15px 30px;
+  font-size:15px;
+  background-color: #FFBB28;
+  border:1px solid #FFBB28;
+  color:#ffffff;
+  margin-left: -2px;
+}
+footer{
+  display:flex;
+  flex-direction: column;
+  margin:0;
+  padding:0;
+  height:450px;
+}
+.footer{
+  display:flex;
+  flex-direction: row;
+  height:400px;
+  width:100%;
+  border:1px solid #1A1A1A;
+  background-color:#1A1A1A;
+}
+.contact_us{
+  width:30%;
+}
+.contact_us h3{
+  color:#ffffff;
+  margin-left: 50%;
+  margin-top: 50px;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+}
+.contact_us p{
+  color:#989898;
+  margin-left: 53%;
+  margin-top: 10px;
+}
+.contact_1::before{
+  content:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/comment.png");
+  position:relative;
+  top:6px;
+  right:5px;
+}
+.contact_2::before{
+  content:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/comment.png");
+  position:relative;
+  top:6px;
+  right:5px;
+}
+.contact_3::before{
+  content:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/comment.png");
+  position:relative;
+  top:6px;
+  right:5px;
+}
+.contact_4::before{
+  content:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/comment.png");
+  position:relative;
+  top:6px;
+  right:5px;
+}
+.our_service{
+  width:50%;
+}
+.our_service h3{
+  align-items: flex-start;
+  color:#ffffff;
+  margin-left: 18%;
+  margin-top: 50px;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+}
+.service_table{
+  display:flex;
+  flex-flow: column wrap;
+  margin-left: 15%;
+}
+.service_table li,
+.service_table a{
+  text-decoration:none;
+  list-style:none;
+  padding-top:6px;
+  color:#7D7D7D;
+  padding-right:15px;
+}
+.service_table li{
+  list-style-image:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/comment.png");
+}
+
+
+
+
+.copyright{
+  height: 50px;
+  width:100%;
+  border:1px solid #0D0D0D;
+  background-color:#0D0D0D;
+}
+.copyright p{
+  color:#646464;
+  text-align: center;
+}
+
+
+
+
+
+/* ///////engine.html ///// start //////
+/////// //////////// //////////// /////
+/////// //////////// //////////// /////
+/////// //////////// //////////// ///// */
+
+
+/* ////start navigation//// */
+.engine_repair{
+  display:flex;
+  justify-content: center;
+  flex-direction:column;
+  width:100%;
+  height:250px;
+  background:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/Heading_Pages.png") no-repeat 50% 50%;
+  margin-top:5px;
+}
+.engine_repair h1{
+  text-align: center;
+  margin-top:-20px;
+  color:#FFBB00;
+}
+.engine_repair p{
+  text-align:center;
+  margin-top:-10px;
+  color:#B0B8CE;
+}
+/* ///////end navigation///// */
+
+
+/* //////start content box //////  */
+.engine_box{
+  margin:0;
+  padding:0;
+  width:100%;
+}
+.engine_menu{
+  display:flex;
+  flex-flow: column;
+}
+.engine_menu ul{
+  display:block;
+  margin-left:17%;
+}
+.engine_menu li,
+.engine_menu a{
+  text-decoration: none;
+  list-style: none;
+  color:#6C6B6C;
+}
+.engine_menu li{
+  border:1px solid #E7E7E7;
+  height:30px;
+  width:200px;
+  text-align: center;
+  padding-top: 12.5px;
+  margin-bottom: 10px;
+}
+.engine_menu li:hover{
+  background-color: #023E99;
+  transition-duration: 1s;
+}
+.engine_menu a:hover{color:#ffffff}
+
+.engine_contact{
+  display:block;
+  margin-left:20%;
+  margin-top: -20px;
+}
+.engine_contact .your_add{
+  border:1px solid #1F53A0;
+  background-color: #1F53A0;
+  color:#ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  padding-top:20px;
+  height:180px;
+  width: 195px;
+}
+.engine_contact h3{color:#323232}
+.engine_contact p{
+  color:#666666;
+}
+.engine_contact p:nth-child(2)::before{
+  content:"123";
+}
