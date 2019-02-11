@@ -11,14 +11,15 @@ body{
 }
 .nav-top{
   height:35px;
-  border: 1px solid silver;
+  border: 1px solid #F2F2F2;
   box-sizing: content-box;
-  background: silver;
+  background: #F2F2F2;
 }
 .nav-top p{
   margin-top:0;
   margin-left:10%;
   padding-top:7.5px;
+  color:#939393;
 }
 .nav-top a{
 
@@ -45,7 +46,7 @@ body{
 .nav-down ul li a{
   display:block;
   text-decoration: none;
-  color:silver;
+  color:#1C1C1C;
   font-size:1.2em;
 }
 /* конец шапки */
@@ -121,24 +122,24 @@ body{
 }
 .icons_choose{
   display:flex;
-  flex-flow:column wrap;
+  flex-direction:column wrap;
   margin:0;
   padding:0;
-  width:560px;
+  width:260px;
 }
 .customize{
   align-content:flex-end;
   width:250px;
-  height: 120px;
+  height: 100px;
   word-wrap: normal;
 }
-.icon_1{
+.customize::before{
   width:50px;
   background-image:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/gears2.png");
-  background-color: blue;
+  background-color: #1C3E9B;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  min-height: 50px;
+  min-height: 100px;
 }
 .customize h3{
 
@@ -150,6 +151,7 @@ body{
   height: 80px;
   padding-left: 10px;
 }
+.
 
 /* .......no end i cooming soon..... */
 
@@ -159,12 +161,13 @@ body{
   width:auto;
   margin:0;
   padding:0;
-  background-color:silver;
+  background-color:#F2F2F2;
 }
 .featured_servis h1{
   font-size: 25px;
   text-align: center;
   padding-top: 50px;
+  color:#00000;
 }
 .featured_servis .describe{
   display:flex;
@@ -184,7 +187,7 @@ body{
 .insta_photo{
   align-self: center;
   width:65px;
-  background: blue url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/tap.png") no-repeat 50% 50%;
+  background: #023E99 url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/tap.png") no-repeat 50% 50%;
   min-height:65px;
   margin-left: 60px;
 }
@@ -195,59 +198,60 @@ body{
 }
 .insta p{
   text-align: center;
-  color:white;
+  color:#646464;
 }
 .insta a{
   text-decoration: none;
   padding-left: 60px;
+  color:#868686;
 }
 /* кінець іконки і опису  */
 .valve_photo{
   align-self:center;
   width:65px;
-  background: blue url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/valve.png") no-repeat 50% 50%;
+  background: #023E99 url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/valve.png") no-repeat 50% 50%;
   min-height:65px;
   margin-left: 60px;
 }
 .valve_photo{
   align-self:center;
   width:65px;
-  background: blue url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/valve.png") no-repeat 50% 50%;
+  background: #023E99 url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/valve.png") no-repeat 50% 50%;
   min-height:65px;
   margin-left: 60px;
 }
 .shop_photo{
   align-self:center;
   width:65px;
-  background: blue url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/shop.png") no-repeat 50% 50%;
+  background: #023E99 url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/shop.png") no-repeat 50% 50%;
   min-height:65px;
   margin-left: 60px;
 }
 .hammer_photo{
   align-self:center;
   width:65px;
-  background: blue url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/hammer.png") no-repeat 50% 50%;
+  background: #023E99 url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/hammer.png") no-repeat 50% 50%;
   min-height:65px;
   margin-left: 60px;
 }
 .pipe_2_photo{
   align-self:center;
   width:65px;
-  background: blue url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/pipe-2.png") no-repeat 50% 50%;
+  background: #023E99 url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/pipe-2.png") no-repeat 50% 50%;
   min-height:65px;
   margin-left: 60px;
 }
 .pipe_photo{
   align-self:center;
   width:65px;
-  background: blue url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/pipe.png") no-repeat 50% 50%;
+  background: #023E99 url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/pipe.png") no-repeat 50% 50%;
   min-height:65px;
   margin-left: 60px;
 }
 .wrench_photo{
   align-self:center;
   width:65px;
-  background: blue url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/wrench.png") no-repeat 50% 50%;
+  background: #023E99 url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/wrench.png") no-repeat 50% 50%;
   min-height:65px;
   margin-left: 60px;
 }
@@ -275,7 +279,7 @@ body{
   content: "YEARS OF EXPIERIENS ";
   display: block;
   position:relative;
-  color:silver;
+  color:#979797;
   font-size:15px;
   position:relative;
   top:10px;
@@ -284,14 +288,16 @@ body{
 }
 .expieriens::before{
   content:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/crown.png");
+
   position: relative;
   min-height:25px;
   width:35px;
-  top:-50px;
-  left:45px;
-  border:1px solid blue;
-  background-color: blue;
-  border-radius: 70px;
+  top:-55px;
+  left:50px;
+  border:1px solid #023E99;
+  background-color: #023E99;
+  padding:2.5px 6px;
+  border-radius: 50%;
   border-width: 10px;
 
 
@@ -300,7 +306,7 @@ body{
   content: "COMPLETED PROJECT";
   display: block;
   position:relative;
-  color:silver;
+  color:#979797;
   font-size:15px;
   position:relative;
   top:10px;
@@ -312,22 +318,23 @@ body{
   position: relative;
   min-height:25px;
   width:35px;
-  top:-50px;
-  left:45px;
-  border:1px solid blue;
-  background-color: blue;
-  border-radius: 70px;
+  top:-55px;
+  left:60px;
+  border:1px solid #023E99;
+  background-color: #023E99;
+  padding:2.5px 6px;
+  border-radius: 50%;
   border-width: 10px;
 }
 .customer::after{
     content: "HAPPY CUSTOMER";
     display: block;
     position:relative;
-    color:silver;
+    color:#979797;
     font-size:15px;
     position:relative;
     top:10px;
-    left:10px;
+    left:35px;
 
   }
 .customer::before{
@@ -335,11 +342,12 @@ body{
     position: relative;
     min-height:25px;
     width:35px;
-    top:-50px;
-    left:45px;
-    border:1px solid blue;
-    background-color: blue;
-    border-radius: 70px;
+    top:-55px;
+    left:70px;
+    border:1px solid #023E99;
+    background-color: #023E99;
+    padding:2.5px 6px;
+    border-radius: 50%;
     border-width: 10px;
 
 
@@ -348,11 +356,11 @@ body{
       content: "AWARDS WON";
       display: block;
       position:relative;
-      color:silver;
+      color:#979797;
       font-size:15px;
       position:relative;
       top:10px;
-      left:10px;
+      left:38px;
 
     }
 .awards::before{
@@ -360,11 +368,12 @@ body{
       position: relative;
       min-height:25px;
       width:35px;
-      top:-50px;
-      left:45px;
-      border:1px solid blue;
-      background-color: blue;
-      border-radius: 70px;
+      top:-55px;
+      left:58px;
+      border:1px solid #023E99;
+      background-color: #023E99;
+      padding:2px 12px;
+      border-radius: 50%;
       border-width: 10px;
 
 
@@ -431,7 +440,7 @@ body{
   text-decoration: none;
   font-weight:bold;
   color:#ffffff;
-  background:orange url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/comment.png") 7% no-repeat;
+  background:orange url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/vintage-cellphone.png") 7% no-repeat;
 }
 
 /* contact start */
@@ -450,8 +459,8 @@ body{
 }
 .store hr,
 .qoute hr{
-  background-color:blue;
-  border: 1px solid blue;
+  background-color:#023A98;
+  border: 1px solid #023A98;
   color:blue;
   width:60px;
   height:2px;
@@ -528,29 +537,30 @@ footer{
   color:#989898;
   margin-left: 53%;
   margin-top: 10px;
+  
 }
 .contact_1::before{
-  content:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/comment.png");
+  content:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/phone.png");
   position:relative;
-  top:6px;
+  top:16px;
   right:5px;
 }
 .contact_2::before{
-  content:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/comment.png");
+  content:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/location.png");
   position:relative;
-  top:6px;
+  top:16px;
   right:5px;
 }
 .contact_3::before{
-  content:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/comment.png");
+  content:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/mail.png");
   position:relative;
-  top:6px;
+  top:16px;
   right:5px;
 }
 .contact_4::before{
-  content:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/comment.png");
+  content:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/timer.png");
   position:relative;
-  top:6px;
+  top:16px;
   right:5px;
 }
 .our_service{
@@ -566,8 +576,9 @@ footer{
 }
 .service_table{
   display:flex;
-  flex-flow: column wrap;
+  flex-direction: row;
   margin-left: 15%;
+  float:left;
 }
 .service_table li,
 .service_table a{
@@ -578,7 +589,7 @@ footer{
   padding-right:15px;
 }
 .service_table li{
-  list-style-image:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/comment.png");
+  list-style-image:url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/1.png");
 }
 
 
