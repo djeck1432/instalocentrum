@@ -3,7 +3,82 @@ body{
   padding:0;
 }
 /* #шапка сайта  начало */
-.nav {
+#menu__icon {
+    display: none;
+    width: 45px;
+    height: 35px;
+    position: relative;
+    cursor: pointer;
+}
+
+#menu__icon span {
+    display: block;
+    position: absolute;
+    height: 9px;
+    width: 100%;
+    background: #333333;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+
+#menu__icon span:nth-child(1) {
+    top: 0px;
+}
+
+#menu__icon span:nth-child(2), .menu__icon span:nth-child(3) {
+    top: 13px;
+}
+
+#menu__icon span:nth-child(4) {
+    top: 26px;
+}
+
+
+
+/* открытое меню адаптивное */
+@media screen and (max-width: 999px)  {
+  .nav-top{
+   display:none;
+ }
+ #menu__icon{
+   display:block;
+   margin:10px;
+ }
+ .navigation{
+   margin:0;
+   padding:0;
+ }
+ .nav-down  ul li{
+   display:block;
+   background-color: #979797;
+   text-align: center;
+   border-bottom:0.5px solid black;
+   border-top:1px solid black;
+   padding-bottom:5px;
+   padding-top: 5px;
+ }
+ .nav-down  ul{
+   display: none;
+ }
+ .nav-down a{
+   text-decoration: none;
+   color:black;
+   font-size:25px;
+ }
+ .nav-down a:hover{
+   color:orange;
+ }
+}
+
+/* end menu adn navigation */
+
+/* адаптивное меню */
+
+
+.nav-top {
     margin:0;
     padding:0;
     width:100%;
@@ -24,16 +99,19 @@ body{
 .nav-top a{
 
 }
+@media screen and (min-width: 999px) {
 .nav-down{
-
+  display:block;
   min-height:60px;
   background:
    url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/Logo.png") no-repeat;
   background-position: left;
   padding-top:10px;
   margin-left:10%;
+
 }
 .nav-down ul{
+  display:block;
   position: relative;
   padding-right: 10%;
   list-style: none;
@@ -48,6 +126,7 @@ body{
   text-decoration: none;
   color:#1C1C1C;
   font-size:1.2em;
+}
 }
 /* конец шапки */
 
@@ -73,6 +152,17 @@ body{
   color:#ffffff;
   font-size:15px;
 }
+@media screen and (max-width: 999px){
+  .main_text .learn_more{
+    margin-left: 40% !important;
+  }
+}
+@media screen and (max-width: 600px){
+  .main_text .learn_more{
+
+    margin-left: 35% !important;
+  }
+}
 .main_text .learn_more{
   margin-left: 45%;
   background-color: orange;
@@ -81,9 +171,9 @@ body{
   color:#ffffff;
   border-radius: 10px;
 }
+
 .choosing{
   display:flex;
-
   margin:0;
   padding:0;
   width:auto;
@@ -97,14 +187,28 @@ body{
   background:
    url("file:///Users/olehkostashchuk/Desktop/instalocentrum/image/Boder.png")
    no-repeat;
-   margin-left: 200px;
+   margin-left: 15%;
    margin-top: 75px;
+
+}
+@media screen and (max-width: 999px){
+  .content_2{
+    display:none;
+  }
+  .chose{
+    justify-content: flex-start !important;
+    margin-top: 150px;
+  }
+  .icons_choose{
+    flex-direction:column !important;
+
+  }
 
 }
 .choose {
   justify-content: flex-end;
   margin-left: 50px;
-  margin-top: 100px;
+  margin-top: 8%;
   font-size:14px;
 }
 .choose hr{
@@ -122,10 +226,10 @@ body{
 }
 .icons_choose{
   display:flex;
-  flex-direction:column wrap;
+  flex-direction:row;
   margin:0;
   padding:0;
-  width:260px;
+  flex-basis:260px;
 }
 .customize{
   align-content:flex-end;
@@ -157,8 +261,9 @@ body{
 
 
 .featured_servis{
-  height:568px;
-  width:auto;
+  display:flex;
+  height:auto;
+  width:100%;
   margin:0;
   padding:0;
   background-color:#F2F2F2;
@@ -166,21 +271,24 @@ body{
 .featured_servis h1{
   font-size: 25px;
   text-align: center;
-  padding-top: 50px;
+  /* padding-top: 25px; */
   color:#00000;
 }
 .featured_servis .describe{
   display:flex;
-  flex-wrap:wrap;
+  flex-flow: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  align-content: space-around;
   justify-content: center;
   width:auto;
   height:450px;
-  margin:40px 12%;
+  /* margin:40px 12%; */
 }
 /* старт иконо и опису */
 .insta{
   width: 180px;
-  height:200px;
+  height:220px;
   margin:0px 40px;
 
 }
